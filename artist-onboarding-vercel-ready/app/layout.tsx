@@ -1,12 +1,11 @@
 import './globals.css';
-import { ReactNode } from 'react';
 
 export const metadata = {
   title: 'Artist Onboarding Portal',
-  description: 'Get started with your artist journey.',
+  description: 'Step-by-step onboarding for artists',
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>{children}</body>
